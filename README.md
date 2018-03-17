@@ -1,6 +1,8 @@
 # Freebox remote
 
-A desktop remote to control your Freebox
+Une application télécommande pour contrôler votre Freebox.
+
+![FreeboxRemoteApp](freebox-remote.png)
 
 ## License
 
