@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Freebox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      body{
+        background-color: #95A5A6;
+      }
+      .key{
+        border-radius:0;
+        background-color: #95A5A6;
+      }
+      .key-important{
+        background-color: #7F8C8D
+      }
+      .key-free{
+        color:red;
+        font-style:oblique;
+        font-weight:bold;
+        font-size:1.2em;
+      }
+      .footer{
+        margin-top: 10px;
+        color: #ECF0F1;
+      }
+      .footer a{
+        color: #ECF0F1;
+      }
+      .footer a:hover{
+        color: #BDC3C7;
+      }
+      .fui-heart:hover{
+        color:red;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="row">
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="tv">AV</button>
+          <div class="col-xs-4"></div>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="power"><span class="fui-power"></span></button>
+        </div>
+
+        <div class="row">
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="1">1</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="2">2</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="3">3</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="4">4</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="5">5</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="6">6</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="7">7</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="8">8</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="9">9</button>
+          <div class="col-xs-4"></div>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="0">0</button>
+        </div>
+
+
+        <div class="row">
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="red" style="background-color: #E74C3C"><span class="fui-exit"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="up"><span class="fui-triangle-up"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="blue" style="background-color: #2980B9"><span class="fui-search"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="left"><span class="fui-triangle-left-large"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="ok">OK</button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="right"><span class="fui-triangle-right-large"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="green" style="background-color: #27AE60"><span class="fui-list"></span> M</button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="down"><span class="fui-triangle-down"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="yellow" style="background-color: #F1C40F"><span class="fui-list"></span> i</button>
+        </div>
+
+        <div class="row">
+            <button class="btn btn-hg btn-default col-xs-12 key key-free" data-key="home">free</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="vol_inc">Vol +</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="mute"><span class="fui-volume"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="prgm_inc">Prog +</button>
+
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="vol_dec">Vol -</button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="rec"><span class="fui-radio-checked"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key key-important" data-key="prgm_dec">Prog -</button>
+
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="bwd"><span class="fui-triangle-left-large"></span><span class="fui-triangle-left-large"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="play"><span class="fui-play"></span><span class="fui-pause"></span></button>
+          <button class="btn btn-hg btn-default col-xs-4 key" data-key="fwd"><span class="fui-triangle-right-large"></span><span class="fui-triangle-right-large"></span></button>
+        </div>
+        <div class="row footer">
+          <div class="col-xs-10">
+            <small>
+              Fait avec <span class="fui-heart"></span> par <a href="http://aschelch.fr">aschelch</a> <a href="http://twitter.com/aschelch"><span class="fui-twitter"></span></a> <a href="https://github.com/aschelch/freebox-remote" class="open-in-browser"><span class="fui-github"></span></a>
+            </small>
+          </div>
+          <div class="col-xs-2">
+            <a href="#" id="settings"><span class="fui-gear"></span></a>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/video.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
