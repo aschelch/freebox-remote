@@ -4,9 +4,9 @@ Une application télécommande pour contrôler votre Freebox.
 
 ![FreeboxRemoteApp](freebox-remote.png)
 
-## Download 
+## Téléchargement 
 
-Download the latest version from the [releases](https://github.com/aschelch/freebox-remote/releases) page. Available for Mac.
+Télécharger la dernière version sur la page de [releases](https://github.com/aschelch/freebox-remote/releases). C'est disponible pour Mac et Linux.
 
 ## License
 
