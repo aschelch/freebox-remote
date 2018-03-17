@@ -4,7 +4,9 @@
   "description": "A Freebox remote app",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager ./ FreeboxRemote --platform=darwin --out ~/Desktop/FreeboxRemote --version 1.0.0 --overwrite --icon=./app/img/favicon.ico"
+
   },
   "repository": "https://github.com/aschelch/freebox-remote",
   "keywords": [
@@ -14,6 +16,11 @@
   "author": "Aurélien Schelcher",
   "license": "MIT",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "~1.8.2",
+    "electron-packager": "^11.1.0"
+  },
+  "dependencies": {
+    "electron-prompt": "^0.5.0",
+    "electron-settings": "^3.1.4"
   }
 }
