@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager ./ FreeboxRemote --platform=darwin --out ~/Desktop/FreeboxRemote --version 1.0.0 --overwrite --icon=./app/img/favicon.ico"
+    "package": "electron-packager ./ FreeboxRemote --platform=darwin,linux --out ~/Desktop/FreeboxRemote --version 1.0.0 --overwrite --icon=./app/img/favicon.ico"
 
   },
   "repository": "https://github.com/aschelch/freebox-remote",
